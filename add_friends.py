@@ -12,7 +12,7 @@ if os.name.find("BSD"):
     sql_or_not=str(cmd_run(["which", "mysql"]))
     if sql_or_not.find("No"):
         print("mysql not installed")
-        cmd_run(["pkg_add", "mariadb-server])
+        cmd_run(["pkg_add", "mariadb-server"])
 
 if os.name.find("linux"):
     print("hello linux")
