@@ -2,7 +2,7 @@ import mysql.connector
 from time import sleep as sleep
 from subprocess import Popen as cmd_run
 import os
-
+#nothing
 if os.name.find("NT"):
     print("hello windows")
 if os.name.find("BSD"):
